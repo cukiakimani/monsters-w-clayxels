@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!21 &1852677
+--- !u!21 &3603411
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -513,6 +513,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15844808}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &29225462
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &33198628
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,38 +809,6 @@ MonoBehaviour:
   clayObjectId: 1
   numSolids: 24
   splineSubdiv: 8
---- !u!21 &42750129
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &43344352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,6 +1021,38 @@ MonoBehaviour:
   clayObjectId: 0
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &45363647
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &46195834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,6 +1118,7 @@ GameObject:
   - component: {fileID: 49173141}
   - component: {fileID: 49173140}
   - component: {fileID: 49173139}
+  - component: {fileID: 49173142}
   m_Layer: 0
   m_Name: CookieCC (1)
   m_TagString: BadFood
@@ -1167,7 +1200,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 559263286}
+  material: {fileID: 1974424364}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -1178,6 +1211,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &49173142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49173137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &50714984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,7 +1413,7 @@ MonoBehaviour:
   clayObjectId: 1
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &66430618
+--- !u!21 &68392790
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -1952,6 +1997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 97099550}
   - component: {fileID: 97099551}
+  - component: {fileID: 97099552}
   m_Layer: 9
   m_Name: BatMonsterFaceCC
   m_TagString: Untagged
@@ -2008,6 +2054,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &97099552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97099549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &98335694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,38 +2172,6 @@ MonoBehaviour:
   clayObjectId: 12
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &102176181
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &103235727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2312,38 +2338,6 @@ MonoBehaviour:
   clayObjectId: 5
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &109110564
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &109352439
 GameObject:
   m_ObjectHideFlags: 0
@@ -2356,6 +2350,7 @@ GameObject:
   - component: {fileID: 109352443}
   - component: {fileID: 109352442}
   - component: {fileID: 109352441}
+  - component: {fileID: 109352440}
   m_Layer: 0
   m_Name: StoveCC
   m_TagString: Untagged
@@ -2363,6 +2358,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &109352440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109352439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &109352441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2412,7 +2419,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1855041919}
+  material: {fileID: 1511101467}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: ClayxelContainer
@@ -2532,7 +2539,7 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &113710604
+--- !u!21 &113685133
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -2577,6 +2584,7 @@ GameObject:
   - component: {fileID: 115133587}
   - component: {fileID: 115133586}
   - component: {fileID: 115133585}
+  - component: {fileID: 115133590}
   m_Layer: 0
   m_Name: SofaBedCC (3)
   m_TagString: Untagged
@@ -2646,7 +2654,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 276322993}
+  material: {fileID: 1290989593}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -2677,38 +2685,18 @@ Transform:
   m_Father: {fileID: 368127541}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!21 &116087826
-Material:
-  serializedVersion: 6
+--- !u!114 &115133590
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
+  m_GameObject: {fileID: 115133584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &117457738
 GameObject:
   m_ObjectHideFlags: 0
@@ -3016,6 +3004,7 @@ GameObject:
   - component: {fileID: 127834772}
   - component: {fileID: 127834771}
   - component: {fileID: 127834770}
+  - component: {fileID: 127834773}
   m_Layer: 0
   m_Name: BeerCC (4)
   m_TagString: Food
@@ -3088,7 +3077,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 631745072}
+  material: {fileID: 589023239}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -3099,6 +3088,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &127834773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127834768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &128606559
 GameObject:
   m_ObjectHideFlags: 0
@@ -3538,6 +3539,38 @@ Transform:
   m_Father: {fileID: 1553430656}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &150474927
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &155326181
 GameObject:
   m_ObjectHideFlags: 0
@@ -3674,7 +3707,37 @@ MonoBehaviour:
   clayObjectId: 4
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &165944142
+--- !u!1 &168282816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 168282817}
+  m_Layer: 9
+  m_Name: splinePnt1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &168282817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168282816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1318165227}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &172835733
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -3706,36 +3769,6 @@ Material:
     m_Colors:
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!1 &168282816
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 168282817}
-  m_Layer: 9
-  m_Name: splinePnt1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &168282817
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168282816}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1318165227}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &178830745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,38 +3832,6 @@ MonoBehaviour:
   clayObjectId: 22
   numSolids: 45
   splineSubdiv: 15
---- !u!21 &181750166
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &185323281
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,7 +4294,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &206237691
 Transform:
   m_ObjectHideFlags: 0
@@ -4357,6 +4358,7 @@ GameObject:
   - component: {fileID: 208881138}
   - component: {fileID: 208881137}
   - component: {fileID: 208881136}
+  - component: {fileID: 208881139}
   m_Layer: 0
   m_Name: Book-greenCC
   m_TagString: BadFood
@@ -4431,7 +4433,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1498060026}
+  material: {fileID: 573491340}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -4442,6 +4444,50 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &208881139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208881134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!21 &215472015
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &225344781
 GameObject:
   m_ObjectHideFlags: 0
@@ -5095,6 +5141,7 @@ GameObject:
   - component: {fileID: 262975510}
   - component: {fileID: 262975509}
   - component: {fileID: 262975508}
+  - component: {fileID: 262975514}
   m_Layer: 0
   m_Name: LampCC (2)
   m_TagString: Untagged
@@ -5177,7 +5224,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 874860804}
+  material: {fileID: 1436788815}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -5205,6 +5252,18 @@ Transform:
   m_Father: {fileID: 1479329705}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &262975514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262975507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &267073613
 GameObject:
   m_ObjectHideFlags: 0
@@ -5343,38 +5402,6 @@ Transform:
   m_Father: {fileID: 1195146724}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &271055560
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &271336674
 GameObject:
   m_ObjectHideFlags: 0
@@ -5481,38 +5508,6 @@ MonoBehaviour:
   clayObjectId: 1
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &276322993
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &278375617
 GameObject:
   m_ObjectHideFlags: 0
@@ -6196,6 +6191,7 @@ GameObject:
   - component: {fileID: 301217086}
   - component: {fileID: 301217085}
   - component: {fileID: 301217084}
+  - component: {fileID: 301217089}
   m_Layer: 0
   m_Name: ChairCC (3)
   m_TagString: Untagged
@@ -6265,7 +6261,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1454180342}
+  material: {fileID: 215472015}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: ClayxelContainer
@@ -6297,6 +6293,18 @@ Transform:
   m_Father: {fileID: 733883297}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
+--- !u!114 &301217089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301217083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &301621508
 GameObject:
   m_ObjectHideFlags: 0
@@ -6340,6 +6348,7 @@ GameObject:
   - component: {fileID: 302306994}
   - component: {fileID: 302306993}
   - component: {fileID: 302306992}
+  - component: {fileID: 302306995}
   m_Layer: 0
   m_Name: CoffeeTabelCC
   m_TagString: Untagged
@@ -6367,7 +6376,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 978023124}
+  material: {fileID: 1127827286}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -6439,6 +6448,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &302306995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302306989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &303602896
 GameObject:
   m_ObjectHideFlags: 0
@@ -6557,6 +6578,7 @@ GameObject:
   - component: {fileID: 309202508}
   - component: {fileID: 309202507}
   - component: {fileID: 309202506}
+  - component: {fileID: 309202509}
   m_Layer: 0
   m_Name: BeerCC (3)
   m_TagString: Food
@@ -6629,7 +6651,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 165944142}
+  material: {fileID: 172835733}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -6640,6 +6662,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &309202509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309202504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &314811273
 GameObject:
   m_ObjectHideFlags: 0
@@ -6746,6 +6780,38 @@ MonoBehaviour:
   clayObjectId: 7
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &321330623
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &321728740
 GameObject:
   m_ObjectHideFlags: 0
@@ -7386,38 +7452,6 @@ MonoBehaviour:
   clayObjectId: 3
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &363866109
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &365575857
 GameObject:
   m_ObjectHideFlags: 0
@@ -7600,6 +7634,7 @@ GameObject:
   - component: {fileID: 377097315}
   - component: {fileID: 377097314}
   - component: {fileID: 377097313}
+  - component: {fileID: 377097317}
   m_Layer: 0
   m_Name: Book-yellowCC
   m_TagString: BadFood
@@ -7656,7 +7691,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 949821417}
+  material: {fileID: 150474927}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -7685,6 +7720,18 @@ Transform:
   m_Father: {fileID: 206237691}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &377097317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377097312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &378570121
 GameObject:
   m_ObjectHideFlags: 0
@@ -8040,6 +8087,38 @@ Transform:
   m_Father: {fileID: 1334415263}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -1.301, y: 11.255, z: -46.113}
+--- !u!21 &384098059
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &386469782
 GameObject:
   m_ObjectHideFlags: 0
@@ -8050,6 +8129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 386469783}
   - component: {fileID: 386469784}
+  - component: {fileID: 386469785}
   m_Layer: 9
   m_Name: BatMonsterCC-Small
   m_TagString: Untagged
@@ -8112,6 +8192,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 7400000, guid: e4f5aaedff5c8904cb643f8252eb27de, type: 2}
   claymationStartFrame: 0
   claymationEndFrame: 92
+--- !u!114 &386469785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386469782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &391981726
 GameObject:
   m_ObjectHideFlags: 0
@@ -8208,6 +8300,7 @@ GameObject:
   - component: {fileID: 400520319}
   - component: {fileID: 400520318}
   - component: {fileID: 400520317}
+  - component: {fileID: 400520322}
   m_Layer: 0
   m_Name: SofaBedCC (1)
   m_TagString: Untagged
@@ -8277,7 +8370,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 451631039}
+  material: {fileID: 113685133}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -8308,6 +8401,18 @@ Transform:
   m_Father: {fileID: 368127541}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &400520322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400520316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &400867704
 GameObject:
   m_ObjectHideFlags: 0
@@ -8756,38 +8861,6 @@ MonoBehaviour:
   clayObjectId: 9
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &439831053
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &442822686
 GameObject:
   m_ObjectHideFlags: 0
@@ -8841,6 +8914,38 @@ MonoBehaviour:
   clayObjectId: 1
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &443253907
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &443576949
 GameObject:
   m_ObjectHideFlags: 0
@@ -8930,38 +9035,6 @@ MonoBehaviour:
   clayObjectId: 4
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &446790571
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &448827099
 GameObject:
   m_ObjectHideFlags: 0
@@ -9015,38 +9088,6 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &451631039
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &456126959
 GameObject:
   m_ObjectHideFlags: 0
@@ -9164,6 +9205,7 @@ GameObject:
   - component: {fileID: 460645394}
   - component: {fileID: 460645393}
   - component: {fileID: 460645395}
+  - component: {fileID: 460645396}
   m_Layer: 0
   m_Name: HangingCupboardCC
   m_TagString: Untagged
@@ -9191,7 +9233,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 113710604}
+  material: {fileID: 997683022}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -9235,6 +9277,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.528911, y: 3.652945, z: 7.758007}
   m_Center: {x: -1.369566, y: -0.013132888, z: 0.039509416}
+--- !u!114 &460645396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460645392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &462671495
 GameObject:
   m_ObjectHideFlags: 0
@@ -9247,6 +9301,7 @@ GameObject:
   - component: {fileID: 462671496}
   - component: {fileID: 462671499}
   - component: {fileID: 462671498}
+  - component: {fileID: 462671500}
   m_Layer: 0
   m_Name: PlasmaUnit
   m_TagString: Untagged
@@ -9274,7 +9329,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 730542755}
+  material: {fileID: 511444964}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -9335,38 +9390,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!21 &467605785
-Material:
-  serializedVersion: 6
+--- !u!114 &462671500
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
+  m_GameObject: {fileID: 462671495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &468240642
 GameObject:
   m_ObjectHideFlags: 0
@@ -9674,6 +9709,7 @@ GameObject:
   - component: {fileID: 483756439}
   - component: {fileID: 483756438}
   - component: {fileID: 483756437}
+  - component: {fileID: 483756440}
   m_Layer: 0
   m_Name: BeerCC (5)
   m_TagString: Food
@@ -9746,7 +9782,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1449599005}
+  material: {fileID: 739013933}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -9757,6 +9793,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &483756440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483756435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &483928475
 GameObject:
   m_ObjectHideFlags: 0
@@ -10119,6 +10167,38 @@ MonoBehaviour:
   clayObjectId: 0
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &505160638
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &506602328
 GameObject:
   m_ObjectHideFlags: 0
@@ -10130,6 +10210,7 @@ GameObject:
   - component: {fileID: 506602329}
   - component: {fileID: 506602331}
   - component: {fileID: 506602330}
+  - component: {fileID: 506602332}
   m_Layer: 9
   m_Name: BatMonsterwingsCC
   m_TagString: Untagged
@@ -10203,6 +10284,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 7400000, guid: 33f378649e2851040bb09f12ba830a8d, type: 2}
   claymationStartFrame: 0
   claymationEndFrame: 60
+--- !u!114 &506602332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506602328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &508817501
 GameObject:
   m_ObjectHideFlags: 0
@@ -10298,6 +10391,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508817501}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &511444964
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &513195245
 GameObject:
   m_ObjectHideFlags: 0
@@ -10808,6 +10933,31 @@ Transform:
   m_Father: {fileID: 1295626476}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
+--- !u!21 &546728503
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInMeshShader
+  m_Shader: {fileID: 4800000, guid: bdd3a97e86972404bb8bfcebc2d0c60e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _Metallic: 0
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &549897664
 GameObject:
   m_ObjectHideFlags: 0
@@ -10944,38 +11094,6 @@ Transform:
   m_Father: {fileID: 280942620}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &559263286
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &564122612
 GameObject:
   m_ObjectHideFlags: 0
@@ -11059,38 +11177,6 @@ MonoBehaviour:
   clayObjectId: 3
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &568176494
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &572221657
 GameObject:
   m_ObjectHideFlags: 0
@@ -11103,6 +11189,7 @@ GameObject:
   - component: {fileID: 572221660}
   - component: {fileID: 572221659}
   - component: {fileID: 572221658}
+  - component: {fileID: 572221662}
   m_Layer: 0
   m_Name: Book-blackCC
   m_TagString: BadFood
@@ -11159,7 +11246,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1379245844}
+  material: {fileID: 954033299}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -11188,6 +11275,82 @@ Transform:
   m_Father: {fileID: 206237691}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &572221662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572221657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!21 &573491340
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!21 &577116851
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &579513481
 GameObject:
   m_ObjectHideFlags: 0
@@ -11398,6 +11561,38 @@ Transform:
   m_Father: {fileID: 1468543895}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &589023239
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &590952595
 GameObject:
   m_ObjectHideFlags: 0
@@ -11693,6 +11888,7 @@ GameObject:
   - component: {fileID: 603646617}
   - component: {fileID: 603646616}
   - component: {fileID: 603646615}
+  - component: {fileID: 603646618}
   m_Layer: 0
   m_Name: SofaBedCC
   m_TagString: Untagged
@@ -11720,7 +11916,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1484554539}
+  material: {fileID: 1092391012}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -11793,6 +11989,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &603646618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603646612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &609545562
 GameObject:
   m_ObjectHideFlags: 0
@@ -12015,38 +12223,6 @@ MonoBehaviour:
   clayObjectId: 21
   numSolids: 45
   splineSubdiv: 15
---- !u!21 &631745072
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &633839720
 GameObject:
   m_ObjectHideFlags: 0
@@ -12112,6 +12288,7 @@ GameObject:
   - component: {fileID: 635307759}
   - component: {fileID: 635307762}
   - component: {fileID: 635307761}
+  - component: {fileID: 635307763}
   m_Layer: 0
   m_Name: FridgeCC
   m_TagString: Untagged
@@ -12139,7 +12316,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1119086576}
+  material: {fileID: 321330623}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -12200,6 +12377,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &635307763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635307758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &636997125
 GameObject:
   m_ObjectHideFlags: 0
@@ -12253,6 +12442,38 @@ MonoBehaviour:
   clayObjectId: 1
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &638125276
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &644069441
 GameObject:
   m_ObjectHideFlags: 0
@@ -12348,6 +12569,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644069441}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &644576644
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &647710954
 GameObject:
   m_ObjectHideFlags: 0
@@ -12514,6 +12767,38 @@ Transform:
   m_Father: {fileID: 4511853}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &653544581
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &658925692
 GameObject:
   m_ObjectHideFlags: 0
@@ -12836,6 +13121,7 @@ GameObject:
   - component: {fileID: 677687292}
   - component: {fileID: 677687291}
   - component: {fileID: 677687290}
+  - component: {fileID: 677687295}
   m_Layer: 0
   m_Name: ChairCC (2)
   m_TagString: Untagged
@@ -12905,7 +13191,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 181750166}
+  material: {fileID: 1227274079}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: ClayxelContainer
@@ -12937,6 +13223,50 @@ Transform:
   m_Father: {fileID: 733883297}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!114 &677687295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677687289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!21 &681553794
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &687894568
 GameObject:
   m_ObjectHideFlags: 0
@@ -13211,6 +13541,38 @@ MonoBehaviour:
   clayObjectId: 7
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &706302497
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &707112886
 GameObject:
   m_ObjectHideFlags: 0
@@ -13610,38 +13972,6 @@ MonoBehaviour:
   clayObjectId: 0
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &730542755
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &733883296
 GameObject:
   m_ObjectHideFlags: 0
@@ -13657,7 +13987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &733883297
 Transform:
   m_ObjectHideFlags: 0
@@ -13696,6 +14026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 735746953}
   - component: {fileID: 735746954}
+  - component: {fileID: 735746955}
   m_Layer: 9
   m_Name: BatMonsterFaceCC
   m_TagString: Untagged
@@ -13752,6 +14083,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &735746955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735746952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &735967642
 GameObject:
   m_ObjectHideFlags: 0
@@ -14014,6 +14357,38 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &739013933
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &742476264
 GameObject:
   m_ObjectHideFlags: 0
@@ -14563,70 +14938,6 @@ MonoBehaviour:
   clayObjectId: 10
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &766170651
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
---- !u!21 &769071562
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &769394812
 GameObject:
   m_ObjectHideFlags: 0
@@ -14918,38 +15229,6 @@ Transform:
   m_Father: {fileID: 1700604318}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &793842517
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &794639233
 GameObject:
   m_ObjectHideFlags: 0
@@ -15122,6 +15401,7 @@ GameObject:
   - component: {fileID: 802394835}
   - component: {fileID: 802394834}
   - component: {fileID: 802394833}
+  - component: {fileID: 802394836}
   m_Layer: 0
   m_Name: SinkCC
   m_TagString: Untagged
@@ -15149,7 +15429,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1805592394}
+  material: {fileID: 2058237986}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: ClayxelContainer
@@ -15229,6 +15509,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &802394836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802394830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &803360392
 GameObject:
   m_ObjectHideFlags: 0
@@ -15577,38 +15869,6 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &820506982
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &823857584
 GameObject:
   m_ObjectHideFlags: 0
@@ -16272,13 +16532,14 @@ GameObject:
   - component: {fileID: 850031641}
   - component: {fileID: 850031640}
   - component: {fileID: 850031642}
+  - component: {fileID: 850031643}
   m_Layer: 0
   m_Name: HotSauceCC
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &850031638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16299,7 +16560,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1777058862}
+  material: {fileID: 1792680560}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -16369,6 +16630,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.68669367, y: 1.3011436, z: 0.7086477}
   m_Center: {x: -0.01424098, y: 1.4454927, z: 0.025218487}
+--- !u!114 &850031643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850031637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &851377797
 GameObject:
   m_ObjectHideFlags: 0
@@ -16381,13 +16654,14 @@ GameObject:
   - component: {fileID: 851377801}
   - component: {fileID: 851377800}
   - component: {fileID: 851377799}
+  - component: {fileID: 851377802}
   m_Layer: 0
   m_Name: LemonCC (5)
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &851377798
 Transform:
   m_ObjectHideFlags: 0
@@ -16454,7 +16728,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 271055560}
+  material: {fileID: 1271547291}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -16465,6 +16739,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &851377802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851377797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &853912756
 GameObject:
   m_ObjectHideFlags: 0
@@ -16495,38 +16781,6 @@ Transform:
   m_Father: {fileID: 531831609}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -1.301, y: 11.255, z: -46.113}
---- !u!21 &854244989
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &860152927
 GameObject:
   m_ObjectHideFlags: 0
@@ -16654,6 +16908,7 @@ GameObject:
   - component: {fileID: 866153222}
   - component: {fileID: 866153224}
   - component: {fileID: 866153223}
+  - component: {fileID: 866153225}
   m_Layer: 9
   m_Name: BatMonsterwingsCC
   m_TagString: Untagged
@@ -16727,6 +16982,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 7400000, guid: 33f378649e2851040bb09f12ba830a8d, type: 2}
   claymationStartFrame: 0
   claymationEndFrame: 60
+--- !u!114 &866153225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866153221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &868081540
 GameObject:
   m_ObjectHideFlags: 0
@@ -16863,38 +17130,6 @@ MonoBehaviour:
   clayObjectId: 0
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &874860804
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &882714681
 GameObject:
   m_ObjectHideFlags: 0
@@ -17074,38 +17309,6 @@ MonoBehaviour:
   clayObjectId: 20
   numSolids: 24
   splineSubdiv: 8
---- !u!21 &887816180
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &889605838
 GameObject:
   m_ObjectHideFlags: 0
@@ -17449,6 +17652,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d0e3eb6fde54a4f85afd0b943258e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startEnabled: 1
+  enableKeyCode: 282
   targetFramerate: -1
 --- !u!114 &895956844
 MonoBehaviour:
@@ -17958,6 +18163,7 @@ GameObject:
   - component: {fileID: 923508538}
   - component: {fileID: 923508541}
   - component: {fileID: 923508540}
+  - component: {fileID: 923508542}
   m_Layer: 0
   m_Name: CookieCC
   m_TagString: BadFood
@@ -17985,7 +18191,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 2007190094}
+  material: {fileID: 68392790}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -18050,6 +18256,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &923508542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923508537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &924753271
 GameObject:
   m_ObjectHideFlags: 0
@@ -18432,38 +18650,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 35.006, y: 107.439, z: 36.588}
---- !u!21 &949821417
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &951255395
 GameObject:
   m_ObjectHideFlags: 0
@@ -18547,6 +18733,38 @@ MonoBehaviour:
   clayObjectId: 1
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &954033299
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &960267205
 GameObject:
   m_ObjectHideFlags: 0
@@ -18577,6 +18795,38 @@ Transform:
   m_Father: {fileID: 924753272}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &962637926
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &967200232
 GameObject:
   m_ObjectHideFlags: 0
@@ -18755,6 +19005,38 @@ MonoBehaviour:
   clayObjectId: 6
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &974853663
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &975009460
 GameObject:
   m_ObjectHideFlags: 0
@@ -18850,13 +19132,14 @@ GameObject:
   - component: {fileID: 976765714}
   - component: {fileID: 976765713}
   - component: {fileID: 976765712}
+  - component: {fileID: 976765715}
   m_Layer: 0
   m_Name: LemonCC (4)
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &976765711
 Transform:
   m_ObjectHideFlags: 0
@@ -18923,7 +19206,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 66430618}
+  material: {fileID: 638125276}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -18934,6 +19217,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &976765715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976765710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &977776775
 GameObject:
   m_ObjectHideFlags: 0
@@ -18987,7 +19282,7 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &978023124
+--- !u!21 &977939793
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -19460,6 +19755,38 @@ MonoBehaviour:
   clayObjectId: 4
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &997683022
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &998916056
 GameObject:
   m_ObjectHideFlags: 0
@@ -19474,6 +19801,7 @@ GameObject:
   - component: {fileID: 998916059}
   - component: {fileID: 998916058}
   - component: {fileID: 998916057}
+  - component: {fileID: 998916063}
   m_Layer: 0
   m_Name: LampCC (1)
   m_TagString: Untagged
@@ -19556,7 +19884,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1128087611}
+  material: {fileID: 1784420717}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -19584,6 +19912,18 @@ Transform:
   m_Father: {fileID: 1479329705}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &998916063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998916056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1008987260
 GameObject:
   m_ObjectHideFlags: 0
@@ -19792,13 +20132,14 @@ GameObject:
   - component: {fileID: 1028884907}
   - component: {fileID: 1028884910}
   - component: {fileID: 1028884909}
+  - component: {fileID: 1028884911}
   m_Layer: 0
   m_Name: PizzaCC
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1028884907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19819,7 +20160,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 446790571}
+  material: {fileID: 977939793}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -19881,6 +20222,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.0180223, y: 0.2962477, z: 3.0007222}
   m_Center: {x: 0.026810165, y: 0.0737403, z: 0.008925898}
+--- !u!114 &1028884911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028884906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1028971335
 GameObject:
   m_ObjectHideFlags: 0
@@ -19893,6 +20246,7 @@ GameObject:
   - component: {fileID: 1028971339}
   - component: {fileID: 1028971338}
   - component: {fileID: 1028971337}
+  - component: {fileID: 1028971340}
   m_Layer: 0
   m_Name: CookieCC (2)
   m_TagString: BadFood
@@ -19974,7 +20328,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1881627138}
+  material: {fileID: 1545508792}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -19985,6 +20339,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1028971340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028971335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1033750972
 GameObject:
   m_ObjectHideFlags: 0
@@ -20442,6 +20808,38 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1074950991
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1086054089
 GameObject:
   m_ObjectHideFlags: 0
@@ -20455,6 +20853,7 @@ GameObject:
   - component: {fileID: 1086054094}
   - component: {fileID: 1086054093}
   - component: {fileID: 1086054092}
+  - component: {fileID: 1086054095}
   m_Layer: 0
   m_Name: TableCC
   m_TagString: Untagged
@@ -20482,7 +20881,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 2128666785}
+  material: {fileID: 577116851}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: ClayxelContainer
@@ -20555,6 +20954,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1086054095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086054089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1086877721
 GameObject:
   m_ObjectHideFlags: 0
@@ -20655,13 +21066,14 @@ GameObject:
   - component: {fileID: 1092222516}
   - component: {fileID: 1092222515}
   - component: {fileID: 1092222514}
+  - component: {fileID: 1092222517}
   m_Layer: 0
   m_Name: LemonCC (2)
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1092222513
 Transform:
   m_ObjectHideFlags: 0
@@ -20728,7 +21140,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1194136905}
+  material: {fileID: 1960224254}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -20739,6 +21151,50 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1092222517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092222512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!21 &1092391012
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1099569063
 GameObject:
   m_ObjectHideFlags: 0
@@ -20951,38 +21407,6 @@ MonoBehaviour:
   clayObjectId: 6
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &1119086576
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1120036627
 GameObject:
   m_ObjectHideFlags: 0
@@ -21108,7 +21532,7 @@ Transform:
   m_Father: {fileID: 354735125}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -10.721, y: 10.14, z: -26.801}
---- !u!21 &1128087611
+--- !u!21 &1127827286
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -21193,6 +21617,31 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1132148740
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInMeshShader
+  m_Shader: {fileID: 4800000, guid: bdd3a97e86972404bb8bfcebc2d0c60e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _Metallic: 0
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1132615320
 GameObject:
   m_ObjectHideFlags: 0
@@ -21300,6 +21749,7 @@ GameObject:
   - component: {fileID: 1134225209}
   - component: {fileID: 1134225208}
   - component: {fileID: 1134225207}
+  - component: {fileID: 1134225211}
   m_Layer: 0
   m_Name: Book-purpleCC
   m_TagString: BadFood
@@ -21356,7 +21806,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 820506982}
+  material: {fileID: 706302497}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -21385,6 +21835,18 @@ Transform:
   m_Father: {fileID: 206237691}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1134225211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134225206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1134621757
 GameObject:
   m_ObjectHideFlags: 0
@@ -21450,6 +21912,7 @@ GameObject:
   - component: {fileID: 1147098475}
   - component: {fileID: 1147098474}
   - component: {fileID: 1147098473}
+  - component: {fileID: 1147098476}
   m_Layer: 0
   m_Name: BeerCC (2)
   m_TagString: Food
@@ -21522,7 +21985,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1540085466}
+  material: {fileID: 681553794}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -21533,6 +21996,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1147098476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147098471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1147166408
 GameObject:
   m_ObjectHideFlags: 0
@@ -21577,6 +22052,7 @@ GameObject:
   - component: {fileID: 1149088268}
   - component: {fileID: 1149088267}
   - component: {fileID: 1149088266}
+  - component: {fileID: 1149088270}
   m_Layer: 0
   m_Name: TV
   m_TagString: Untagged
@@ -21604,7 +22080,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 363866109}
+  material: {fileID: 3603411}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -21688,6 +22164,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1149088270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149088263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1152943420
 GameObject:
   m_ObjectHideFlags: 0
@@ -22531,38 +23019,6 @@ Transform:
   m_Father: {fileID: 1177801844}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1194136905
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1195146721
 GameObject:
   m_ObjectHideFlags: 0
@@ -22574,6 +23030,7 @@ GameObject:
   - component: {fileID: 1195146724}
   - component: {fileID: 1195146723}
   - component: {fileID: 1195146722}
+  - component: {fileID: 1195146725}
   m_Layer: 0
   m_Name: HangingCupboardCC (1)
   m_TagString: Untagged
@@ -22614,7 +23071,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 2083367109}
+  material: {fileID: 2081840326}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -22645,6 +23102,18 @@ Transform:
   m_Father: {fileID: 1432324719}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1195146725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195146721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1200088107
 GameObject:
   m_ObjectHideFlags: 0
@@ -22773,13 +23242,14 @@ GameObject:
   - component: {fileID: 1207985060}
   - component: {fileID: 1207985063}
   - component: {fileID: 1207985062}
+  - component: {fileID: 1207985064}
   m_Layer: 0
   m_Name: BeerCC
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1207985060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22800,7 +23270,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1852677}
+  material: {fileID: 1857329778}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -22856,6 +23326,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1207985064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207985059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1217179754
 GameObject:
   m_ObjectHideFlags: 0
@@ -23227,6 +23709,38 @@ MonoBehaviour:
   clayObjectId: 1
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1227274079
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1228776955
 GameObject:
   m_ObjectHideFlags: 0
@@ -23280,6 +23794,38 @@ MonoBehaviour:
   clayObjectId: 1
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1231850828
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1232598213
 GameObject:
   m_ObjectHideFlags: 0
@@ -23398,6 +23944,7 @@ GameObject:
   - component: {fileID: 1238887568}
   - component: {fileID: 1238887567}
   - component: {fileID: 1238887566}
+  - component: {fileID: 1238887570}
   m_Layer: 0
   m_Name: Book-blueCC
   m_TagString: BadFood
@@ -23454,7 +24001,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1314656522}
+  material: {fileID: 962637926}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -23483,38 +24030,18 @@ Transform:
   m_Father: {fileID: 206237691}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1239279307
-Material:
-  serializedVersion: 6
+--- !u!114 &1238887570
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
+  m_GameObject: {fileID: 1238887565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1242614227
 GameObject:
   m_ObjectHideFlags: 0
@@ -23615,6 +24142,7 @@ GameObject:
   - component: {fileID: 1245766982}
   - component: {fileID: 1245766981}
   - component: {fileID: 1245766980}
+  - component: {fileID: 1245766983}
   m_Layer: 0
   m_Name: CookieCC (3)
   m_TagString: BadFood
@@ -23696,7 +24224,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1663275618}
+  material: {fileID: 1231850828}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -23707,6 +24235,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1245766983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245766978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1245902383
 GameObject:
   m_ObjectHideFlags: 0
@@ -23812,7 +24352,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1267594257
 Transform:
   m_ObjectHideFlags: 0
@@ -23959,6 +24499,38 @@ Transform:
   m_Father: {fileID: 1439324915}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1271547291
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1271895577
 GameObject:
   m_ObjectHideFlags: 0
@@ -24095,6 +24667,38 @@ Transform:
   m_Father: {fileID: 321728741}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1290989593
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!21 &1292713050
 Material:
   serializedVersion: 6
@@ -24349,7 +24953,7 @@ MonoBehaviour:
   clayObjectId: 4
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &1314656522
+--- !u!21 &1310679172
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -24698,6 +25302,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324571695}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &1325676013
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1326081129
 GameObject:
   m_ObjectHideFlags: 0
@@ -25180,6 +25816,38 @@ MonoBehaviour:
   clayObjectId: 15
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1344802963
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1345179913
 GameObject:
   m_ObjectHideFlags: 0
@@ -25275,6 +25943,7 @@ GameObject:
   - component: {fileID: 1352073787}
   - component: {fileID: 1352073786}
   - component: {fileID: 1352073785}
+  - component: {fileID: 1352073788}
   m_Layer: 0
   m_Name: CookieCC (1)
   m_TagString: BadFood
@@ -25356,7 +26025,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1355783839}
+  material: {fileID: 1944172547}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -25367,6 +26036,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1352073788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352073783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1353062886
 GameObject:
   m_ObjectHideFlags: 0
@@ -25434,6 +26115,7 @@ GameObject:
   - component: {fileID: 1353375841}
   - component: {fileID: 1353375840}
   - component: {fileID: 1353375839}
+  - component: {fileID: 1353375844}
   m_Layer: 0
   m_Name: LampCC (3)
   m_TagString: Untagged
@@ -25533,7 +26215,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1905897098}
+  material: {fileID: 1344802963}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -25544,38 +26226,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
---- !u!21 &1355783839
-Material:
-  serializedVersion: 6
+--- !u!114 &1353375844
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
+  m_GameObject: {fileID: 1353375837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1356972546
 GameObject:
   m_ObjectHideFlags: 0
@@ -25956,6 +26618,7 @@ GameObject:
   - component: {fileID: 1377923112}
   - component: {fileID: 1377923111}
   - component: {fileID: 1377923110}
+  - component: {fileID: 1377923115}
   m_Layer: 0
   m_Name: SofaBedCC (2)
   m_TagString: Untagged
@@ -26025,7 +26688,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 467605785}
+  material: {fileID: 1492305068}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -26056,38 +26719,18 @@ Transform:
   m_Father: {fileID: 368127541}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!21 &1379245844
-Material:
-  serializedVersion: 6
+--- !u!114 &1377923115
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
+  m_GameObject: {fileID: 1377923109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1386796453
 GameObject:
   m_ObjectHideFlags: 0
@@ -26927,7 +27570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1432324719
 Transform:
   m_ObjectHideFlags: 0
@@ -27006,6 +27649,38 @@ MonoBehaviour:
   clayObjectId: 4
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1436788815
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1439324914
 GameObject:
   m_ObjectHideFlags: 0
@@ -27122,70 +27797,6 @@ MonoBehaviour:
   clayObjectId: 0
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &1448061128
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
---- !u!21 &1449599005
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1450197271
 GameObject:
   m_ObjectHideFlags: 0
@@ -27375,38 +27986,6 @@ MonoBehaviour:
   clayObjectId: 6
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &1454180342
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1457169856
 GameObject:
   m_ObjectHideFlags: 0
@@ -27525,6 +28104,7 @@ GameObject:
   - component: {fileID: 1468543898}
   - component: {fileID: 1468543897}
   - component: {fileID: 1468543896}
+  - component: {fileID: 1468543899}
   m_Layer: 9
   m_Name: BatMonsterCC-Morph
   m_TagString: Untagged
@@ -27620,6 +28200,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 7400000, guid: 7548a73fb7fa57f4a907a21ddbdd300a, type: 2}
   claymationStartFrame: 0
   claymationEndFrame: 60
+--- !u!114 &1468543899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468543894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1470052743
 GameObject:
   m_ObjectHideFlags: 0
@@ -27896,38 +28488,6 @@ MonoBehaviour:
   clayObjectId: 5
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &1484554539
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1485646280
 GameObject:
   m_ObjectHideFlags: 0
@@ -27981,38 +28541,7 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
---- !u!1 &1492329387
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1492329388}
-  m_Layer: 9
-  m_Name: joint tongue
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1492329388
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492329387}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.33, z: 1.54}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1585270878}
-  m_Father: {fileID: 1830457823}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1498060026
+--- !u!21 &1492305068
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -28044,6 +28573,37 @@ Material:
     m_Colors:
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!1 &1492329387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1492329388}
+  m_Layer: 9
+  m_Name: joint tongue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1492329388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492329387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.33, z: 1.54}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1585270878}
+  m_Father: {fileID: 1830457823}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1498932084
 GameObject:
   m_ObjectHideFlags: 0
@@ -28233,6 +28793,38 @@ MonoBehaviour:
   clayObjectId: 6
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1511101467
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1512511279
 GameObject:
   m_ObjectHideFlags: 0
@@ -28410,38 +29002,6 @@ Transform:
   m_Father: {fileID: 1468543895}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1521228508
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1521236710
 GameObject:
   m_ObjectHideFlags: 0
@@ -28548,38 +29108,6 @@ MonoBehaviour:
   clayObjectId: 3
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &1540085466
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1540384482
 GameObject:
   m_ObjectHideFlags: 0
@@ -28739,6 +29267,38 @@ MonoBehaviour:
   clayObjectId: 5
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1545508792
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1552473326
 GameObject:
   m_ObjectHideFlags: 0
@@ -28845,6 +29405,7 @@ GameObject:
   - component: {fileID: 1557456523}
   - component: {fileID: 1557456522}
   - component: {fileID: 1557456521}
+  - component: {fileID: 1557456524}
   m_Layer: 0
   m_Name: ChairCC
   m_TagString: Untagged
@@ -28872,7 +29433,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 568176494}
+  material: {fileID: 1587519084}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: ClayxelContainer
@@ -28946,6 +29507,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1557456524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557456518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1558519733
 GameObject:
   m_ObjectHideFlags: 0
@@ -29331,6 +29904,38 @@ MonoBehaviour:
   clayObjectId: 6
   numSolids: 36
   splineSubdiv: 12
+--- !u!21 &1587519084
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1587569926
 GameObject:
   m_ObjectHideFlags: 0
@@ -29751,38 +30356,6 @@ Transform:
   m_Father: {fileID: 1585270878}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -29.249}
---- !u!21 &1607594126
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1608022421
 GameObject:
   m_ObjectHideFlags: 0
@@ -30310,38 +30883,6 @@ Transform:
   m_Father: {fileID: 802394832}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1663275618
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1663782891
 GameObject:
   m_ObjectHideFlags: 0
@@ -30576,6 +31117,7 @@ GameObject:
   - component: {fileID: 1685857372}
   - component: {fileID: 1685857371}
   - component: {fileID: 1685857370}
+  - component: {fileID: 1685857375}
   m_Layer: 0
   m_Name: ChairCC (1)
   m_TagString: Untagged
@@ -30645,7 +31187,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1521228508}
+  material: {fileID: 1325676013}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: ClayxelContainer
@@ -30677,6 +31219,18 @@ Transform:
   m_Father: {fileID: 733883297}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1685857375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685857369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1688747134
 GameObject:
   m_ObjectHideFlags: 0
@@ -31327,6 +31881,38 @@ MonoBehaviour:
   clayObjectId: 0
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1731818560
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1732244931
 GameObject:
   m_ObjectHideFlags: 0
@@ -31562,13 +32148,14 @@ GameObject:
   - component: {fileID: 1745465375}
   - component: {fileID: 1745465374}
   - component: {fileID: 1745465373}
+  - component: {fileID: 1745465376}
   m_Layer: 0
   m_Name: LemonCC (1)
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1745465372
 Transform:
   m_ObjectHideFlags: 0
@@ -31635,7 +32222,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 439831053}
+  material: {fileID: 384098059}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -31646,6 +32233,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1745465376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745465371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1747532835
 GameObject:
   m_ObjectHideFlags: 0
@@ -31835,38 +32434,6 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &1777058862
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1778112665
 GameObject:
   m_ObjectHideFlags: 0
@@ -31952,6 +32519,38 @@ Material:
     m_Colors:
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!21 &1784420717
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1785807697
 GameObject:
   m_ObjectHideFlags: 0
@@ -31964,6 +32563,7 @@ GameObject:
   - component: {fileID: 1785807701}
   - component: {fileID: 1785807700}
   - component: {fileID: 1785807699}
+  - component: {fileID: 1785807702}
   m_Layer: 0
   m_Name: StoveCC (1)
   m_TagString: Untagged
@@ -32057,6 +32657,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1785807702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785807697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1787947847
 GameObject:
   m_ObjectHideFlags: 0
@@ -32110,37 +32722,7 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
---- !u!1 &1805475929
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1805475930}
-  m_Layer: 9
-  m_Name: splinePnt3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1805475930
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805475929}
-  m_LocalRotation: {x: -0.11091314, y: 0.064020894, z: -0.22181292, w: 0.966643}
-  m_LocalPosition: {x: 4, y: -19, z: -0.65}
-  m_LocalScale: {x: 0.72586, y: 0.72586, z: 0.72586}
-  m_Children: []
-  m_Father: {fileID: 1336385444}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -10.721, y: 10.14, z: -26.801}
---- !u!21 &1805592394
+--- !u!21 &1792680560
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -32172,6 +32754,36 @@ Material:
     m_Colors:
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!1 &1805475929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1805475930}
+  m_Layer: 9
+  m_Name: splinePnt3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1805475930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805475929}
+  m_LocalRotation: {x: -0.11091314, y: 0.064020894, z: -0.22181292, w: 0.966643}
+  m_LocalPosition: {x: 4, y: -19, z: -0.65}
+  m_LocalScale: {x: 0.72586, y: 0.72586, z: 0.72586}
+  m_Children: []
+  m_Father: {fileID: 1336385444}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -10.721, y: 10.14, z: -26.801}
 --- !u!1 &1806594619
 GameObject:
   m_ObjectHideFlags: 0
@@ -32235,6 +32847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1806954977}
   - component: {fileID: 1806954978}
+  - component: {fileID: 1806954979}
   m_Layer: 9
   m_Name: BatMonsterFaceCC
   m_TagString: Untagged
@@ -32291,6 +32904,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1806954979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806954976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1808738198
 GameObject:
   m_ObjectHideFlags: 0
@@ -32302,6 +32927,7 @@ GameObject:
   - component: {fileID: 1808738199}
   - component: {fileID: 1808738201}
   - component: {fileID: 1808738200}
+  - component: {fileID: 1808738202}
   m_Layer: 9
   m_Name: BatMonsterwingsCC
   m_TagString: Untagged
@@ -32375,6 +33001,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 7400000, guid: 33f378649e2851040bb09f12ba830a8d, type: 2}
   claymationStartFrame: 0
   claymationEndFrame: 60
+--- !u!114 &1808738202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808738198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1811722741
 GameObject:
   m_ObjectHideFlags: 0
@@ -32548,38 +33186,6 @@ Transform:
   m_Father: {fileID: 1934474611}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1839033834
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1839823676
 GameObject:
   m_ObjectHideFlags: 0
@@ -32811,6 +33417,7 @@ GameObject:
   - component: {fileID: 1843806602}
   - component: {fileID: 1843806601}
   - component: {fileID: 1843806600}
+  - component: {fileID: 1843806603}
   m_Layer: 0
   m_Name: BeerCC (1)
   m_TagString: Food
@@ -32883,7 +33490,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 766170651}
+  material: {fileID: 1074950991}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -32894,6 +33501,50 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1843806603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843806598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!21 &1846459572
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1847573378
 GameObject:
   m_ObjectHideFlags: 0
@@ -33083,38 +33734,6 @@ Transform:
   m_Father: {fileID: 1585270878}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.861}
---- !u!21 &1855041919
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1856376716
 GameObject:
   m_ObjectHideFlags: 0
@@ -33197,6 +33816,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!21 &1857329778
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1873978476
 GameObject:
   m_ObjectHideFlags: 0
@@ -33388,6 +34039,7 @@ GameObject:
   - component: {fileID: 1881147973}
   - component: {fileID: 1881147972}
   - component: {fileID: 1881147971}
+  - component: {fileID: 1881147974}
   m_Layer: 0
   m_Name: ShelfCC
   m_TagString: Untagged
@@ -33415,7 +34067,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 793842517}
+  material: {fileID: 974853663}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -33516,6 +34168,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.5629563, y: 0.19087833, z: 2.050873}
   m_Center: {x: 0.009912063, y: -1.2213093, z: 0.009912832}
+--- !u!114 &1881147974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881147966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1881474999
 GameObject:
   m_ObjectHideFlags: 0
@@ -33550,38 +34214,6 @@ Transform:
   m_Father: {fileID: 1468543895}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1881627138
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1882800876
 GameObject:
   m_ObjectHideFlags: 0
@@ -33635,6 +34267,38 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1892018455
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1892306036
 GameObject:
   m_ObjectHideFlags: 0
@@ -33847,38 +34511,6 @@ MonoBehaviour:
   clayObjectId: 3
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &1905897098
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1913094683
 GameObject:
   m_ObjectHideFlags: 0
@@ -34016,13 +34648,14 @@ GameObject:
   - component: {fileID: 1915775907}
   - component: {fileID: 1915775906}
   - component: {fileID: 1915775905}
+  - component: {fileID: 1915775908}
   m_Layer: 0
   m_Name: LemonCC (3)
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1915775904
 Transform:
   m_ObjectHideFlags: 0
@@ -34089,7 +34722,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1839033834}
+  material: {fileID: 1846459572}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -34100,6 +34733,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1915775908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915775903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1917019745
 GameObject:
   m_ObjectHideFlags: 0
@@ -34666,6 +35311,38 @@ MonoBehaviour:
   clayObjectId: 1
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1944172547
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1944183160
 GameObject:
   m_ObjectHideFlags: 0
@@ -34719,6 +35396,38 @@ MonoBehaviour:
   clayObjectId: 0
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1960224254
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1960805605
 GameObject:
   m_ObjectHideFlags: 0
@@ -34825,6 +35534,38 @@ MonoBehaviour:
   clayObjectId: 1
   numSolids: 1
   splineSubdiv: 3
+--- !u!21 &1974424364
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1976169156
 GameObject:
   m_ObjectHideFlags: 0
@@ -34879,6 +35620,38 @@ MonoBehaviour:
   numSolids: 1
   splineSubdiv: 3
 --- !u!21 &1979493431
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!21 &1980158274
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -35017,6 +35790,7 @@ GameObject:
   - component: {fileID: 1991393408}
   - component: {fileID: 1991393407}
   - component: {fileID: 1991393406}
+  - component: {fileID: 1991393410}
   m_Layer: 0
   m_Name: Book-redCC
   m_TagString: BadFood
@@ -35073,7 +35847,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1607594126}
+  material: {fileID: 1731818560}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -35102,6 +35876,18 @@ Transform:
   m_Father: {fileID: 206237691}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &1991393410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991393405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1998633323
 GameObject:
   m_ObjectHideFlags: 0
@@ -35114,6 +35900,7 @@ GameObject:
   - component: {fileID: 1998633327}
   - component: {fileID: 1998633326}
   - component: {fileID: 1998633325}
+  - component: {fileID: 1998633328}
   m_Layer: 0
   m_Name: CookieCC
   m_TagString: BadFood
@@ -35195,7 +35982,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1448061128}
+  material: {fileID: 29225462}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -35206,6 +35993,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &1998633328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998633323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1999489705
 GameObject:
   m_ObjectHideFlags: 0
@@ -35342,38 +36141,6 @@ Transform:
   m_Father: {fileID: 1874902579}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &2007190094
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &2008735191
 GameObject:
   m_ObjectHideFlags: 0
@@ -35774,6 +36541,7 @@ GameObject:
   - component: {fileID: 2031785471}
   - component: {fileID: 2031785470}
   - component: {fileID: 2031785469}
+  - component: {fileID: 2031785472}
   m_Layer: 0
   m_Name: Book-purpleCC (1)
   m_TagString: BadFood
@@ -35848,7 +36616,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 109110564}
+  material: {fileID: 1310679172}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -35859,6 +36627,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &2031785472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031785467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2032126670
 GameObject:
   m_ObjectHideFlags: 0
@@ -35871,6 +36651,7 @@ GameObject:
   - component: {fileID: 2032126674}
   - component: {fileID: 2032126673}
   - component: {fileID: 2032126672}
+  - component: {fileID: 2032126675}
   m_Layer: 0
   m_Name: CookieCC (5)
   m_TagString: BadFood
@@ -35952,7 +36733,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 887816180}
+  material: {fileID: 644576644}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -35963,6 +36744,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &2032126675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032126670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2032276331
 GameObject:
   m_ObjectHideFlags: 0
@@ -36185,6 +36978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2053664323}
   - component: {fileID: 2053664324}
+  - component: {fileID: 2053664325}
   m_Layer: 9
   m_Name: BatMonsterCC-Big
   m_TagString: Untagged
@@ -36247,6 +37041,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 7400000, guid: e4f5aaedff5c8904cb643f8252eb27de, type: 2}
   claymationStartFrame: 0
   claymationEndFrame: 92
+--- !u!114 &2053664325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053664322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2053878619
 GameObject:
   m_ObjectHideFlags: 0
@@ -36383,6 +37189,38 @@ Transform:
   m_Father: {fileID: 1177801844}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &2058237986
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clayxels/ClayxelBuiltInShader
+  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ClayxelSize: 1
+    - _Cutoff: 0.95
+    - _Metallic: 0
+    - _NormalOrient: 1
+    - _Smoothness: 0.5
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &2060788562
 GameObject:
   m_ObjectHideFlags: 0
@@ -36645,13 +37483,14 @@ GameObject:
   - component: {fileID: 2078609248}
   - component: {fileID: 2078609247}
   - component: {fileID: 2078609246}
+  - component: {fileID: 2078609250}
   m_Layer: 0
   m_Name: LemonCC
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2078609246
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36701,7 +37540,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 1239279307}
+  material: {fileID: 1980158274}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -36729,7 +37568,19 @@ Transform:
   m_Father: {fileID: 733883297}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &2083367109
+--- !u!114 &2078609250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078609245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!21 &2081840326
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -36964,6 +37815,7 @@ GameObject:
   - component: {fileID: 2100176137}
   - component: {fileID: 2100176136}
   - component: {fileID: 2100176135}
+  - component: {fileID: 2100176139}
   m_Layer: 0
   m_Name: LampCC
   m_TagString: Untagged
@@ -36991,7 +37843,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 854244989}
+  material: {fileID: 505160638}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -37074,6 +37926,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2100176139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100176132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2101518238
 GameObject:
   m_ObjectHideFlags: 0
@@ -37338,6 +38202,7 @@ GameObject:
   - component: {fileID: 2116932129}
   - component: {fileID: 2116932128}
   - component: {fileID: 2116932127}
+  - component: {fileID: 2116932130}
   m_Layer: 0
   m_Name: CookieCC (4)
   m_TagString: BadFood
@@ -37419,7 +38284,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 769071562}
+  material: {fileID: 45363647}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: 
@@ -37430,6 +38295,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 0}
   claymationStartFrame: 0
   claymationEndFrame: 0
+--- !u!114 &2116932130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116932125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2125296837
 GameObject:
   m_ObjectHideFlags: 0
@@ -37536,38 +38413,6 @@ MonoBehaviour:
   clayObjectId: 2
   numSolids: 1
   splineSubdiv: 3
---- !u!21 &2128666785
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Clayxels/ClayxelBuiltInShader
-  m_Shader: {fileID: 4800000, guid: 8d3e2d0573fa71447be9cc6d6c1d49b6, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1aa3096b1b9d9204eaa6c75a4275adb1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ClayxelSize: 1
-    - _Cutoff: 0.95
-    - _Metallic: 0
-    - _NormalOrient: 1
-    - _Smoothness: 0.5
-    m_Colors:
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &2130937484
 GameObject:
   m_ObjectHideFlags: 0
@@ -38152,7 +38997,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 116087826}
+  material: {fileID: 1892018455}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: ClayxelContainer
@@ -38191,6 +39036,8 @@ GameObject:
   m_Component:
   - component: {fileID: 613159012509190937}
   - component: {fileID: 613159012509190936}
+  - component: {fileID: 613159012509190939}
+  - component: {fileID: 613159012509190940}
   m_Layer: 9
   m_Name: BatMonsterFaceCC
   m_TagString: Untagged
@@ -38198,6 +39045,59 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!23 &613159012509190939
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613159012509190938}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 546728503}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &613159012509190940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613159012509190938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &613159012516760036
 Transform:
   m_ObjectHideFlags: 0
@@ -41271,6 +42171,8 @@ GameObject:
   - component: {fileID: 613159014336502949}
   - component: {fileID: 613159014336502971}
   - component: {fileID: 613159014336502948}
+  - component: {fileID: 613159014336502951}
+  - component: {fileID: 613159014336502952}
   m_Layer: 9
   m_Name: BatMonsterwingsCC
   m_TagString: Untagged
@@ -41278,6 +42180,59 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!23 &613159014336502951
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613159014336502950}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 1132148740}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &613159014336502952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613159014336502950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &613159014336502971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41298,7 +42253,7 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 102176181}
+  material: {fileID: 443253907}
   castShadows: 1
   receiveShadows: 1
   storeAssetPath: ClayxelContainer
@@ -41329,14 +42284,14 @@ MonoBehaviour:
   chunksX: 1
   chunksY: 1
   chunksZ: 1
-  material: {fileID: 42750129}
+  material: {fileID: 653544581}
   castShadows: 1
   receiveShadows: 1
-  storeAssetPath: ClayxelContainer
+  storeAssetPath: Monster
   frozen: 0
   clayObjectsOrderLocked: 1
-  shouldRetopoMesh: 0
-  retopoMaxVerts: 10000
+  shouldRetopoMesh: 1
+  retopoMaxVerts: 5000
   claymationAnimClip: {fileID: 7400000, guid: 7548a73fb7fa57f4a907a21ddbdd300a, type: 2}
   claymationStartFrame: 0
   claymationEndFrame: 60
@@ -41350,6 +42305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 613159014374205707}
   - component: {fileID: 613159014374205684}
+  - component: {fileID: 613159014374205689}
   m_Layer: 9
   m_Name: BatMonsterCC-Morph
   m_TagString: Untagged
@@ -41357,6 +42313,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &613159014374205689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613159014374205686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &613159014374205707
 Transform:
   m_ObjectHideFlags: 0
@@ -43562,6 +44530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3717438453131130535}
   - component: {fileID: 3717438453131130534}
+  - component: {fileID: 3717438453131130555}
   m_Layer: 9
   m_Name: BatMonsterCC-Small
   m_TagString: Untagged
@@ -43569,6 +44538,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &3717438453131130555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3717438453131130554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3717438453137136641
 GameObject:
   m_ObjectHideFlags: 0
@@ -44302,6 +45283,7 @@ GameObject:
   - component: {fileID: 3717438453696831149}
   - component: {fileID: 3717438453696831144}
   - component: {fileID: 3717438453696831151}
+  - component: {fileID: 3717438453696831150}
   m_Layer: 9
   m_Name: BatMonsterwingsCC
   m_TagString: Untagged
@@ -44325,6 +45307,18 @@ Transform:
   m_Father: {fileID: 3717438453131130535}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3717438453696831150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3717438453696831148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!95 &3717438453696831151
 Animator:
   serializedVersion: 3
@@ -44869,6 +45863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3717438453911098520}
   - component: {fileID: 3717438453911098522}
+  - component: {fileID: 3717438453911098528}
   m_Layer: 9
   m_Name: BatMonsterFaceCC
   m_TagString: Untagged
@@ -44876,6 +45871,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3717438453911098528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3717438453911098527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3717438453947714044
 GameObject:
   m_ObjectHideFlags: 0
@@ -45467,6 +46474,7 @@ GameObject:
   - component: {fileID: 5057639600537591274}
   - component: {fileID: 5057639600537591285}
   - component: {fileID: 5057639600537591275}
+  - component: {fileID: 5057639600537591286}
   m_Layer: 9
   m_Name: BatMonsterwingsCC
   m_TagString: Untagged
@@ -45505,6 +46513,18 @@ MonoBehaviour:
   claymationAnimClip: {fileID: 7400000, guid: 33f378649e2851040bb09f12ba830a8d, type: 2}
   claymationStartFrame: 0
   claymationEndFrame: 60
+--- !u!114 &5057639600537591286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5057639600537591284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5057639600619272988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46503,6 +47523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5057639601333934323}
   - component: {fileID: 5057639601333934322}
+  - component: {fileID: 5057639601333934333}
   m_Layer: 9
   m_Name: BatMonsterFaceCC
   m_TagString: Untagged
@@ -46510,6 +47531,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5057639601333934333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5057639601333934332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5057639601349614112
 GameObject:
   m_ObjectHideFlags: 0
@@ -48085,6 +49118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5057639602115401093}
   - component: {fileID: 5057639602115401092}
+  - component: {fileID: 5057639602115401096}
   m_Layer: 9
   m_Name: BatMonsterCC-Big
   m_TagString: Untagged
@@ -48092,6 +49126,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &5057639602115401096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5057639602115401095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29c5e714fcd81a46b0df84106acfa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5057639602122025874
 GameObject:
   m_ObjectHideFlags: 0

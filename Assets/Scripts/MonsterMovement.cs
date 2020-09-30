@@ -11,7 +11,7 @@ public class MonsterMovement : MonoBehaviour
     [Space, SerializeField] private Vector3 planeInPoint;
 
     private Rigidbody rigidbody;
-    
+
     private bool moving;
     private Vector3 movePosition;
     private Vector3 moveDirection;
@@ -45,17 +45,22 @@ public class MonsterMovement : MonoBehaviour
         closeEnoughPosition.y = planeInPoint.y;
         moving = Vector3.Distance(closeEnoughPosition, movePosition) > closeEnough;
 
+
+    }
+
+    private void FixedUpdate()
+    {
         if (moving)
         {
             var tempMovePos = movePosition;
             tempMovePos.y = transform.position.y;
             moveDirection = tempMovePos - transform.position;
-            
+
             moveDirection.Normalize();
-            
+
             float rotationAngle = Vector3.SignedAngle(Vector3.forward, moveDirection, Vector3.up);
             facingRotation = Quaternion.AngleAxis(rotationAngle, Vector3.up);
-            
+
             var position = transform.position + moveDirection * (movementSpeed * Time.deltaTime);
             rigidbody.MovePosition(position);
 

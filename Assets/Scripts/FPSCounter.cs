@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class FPSCounter : MonoBehaviour
 {
+    [SerializeField] private bool startEnabled;
+    [SerializeField] private KeyCode enableKeyCode = KeyCode.F1;
     [SerializeField] private int targetFramerate = -1;
 
     private const float refreshTime = 0.1f;
@@ -13,11 +15,13 @@ public class FPSCounter : MonoBehaviour
     private float timer;
     private float framerate;
     private GUIStyle labelStyle;
+    private bool show;
 
     private void Awake()
     {
         Application.targetFrameRate = targetFramerate;
         labelStyle = new GUIStyle {fontSize = 18, fontStyle = FontStyle.Bold};
+        show = startEnabled;
     }
 
     private void Update()
@@ -33,10 +37,18 @@ public class FPSCounter : MonoBehaviour
             frameCounter = 0;
             timer = 0f;
         }
+
+        if (Input.GetKeyDown(enableKeyCode))
+        {
+            show = !show;
+        }
     }
 
     private void OnGUI()
     {
+        if (!show)
+            return;
+
         Color textColor = Color.green;
 
         if (framerate < 45f)

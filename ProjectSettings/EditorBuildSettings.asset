@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MonsterApartment.unity
+    guid: 5972e6925eeef5a4bbc3a9874fa9cdaa
   m_configObjects: {}
